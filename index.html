@@ -28,14 +28,20 @@
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto" id="botonSorteo">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
+                </button>
+            </div>
+            <div class="button-container">
+                <button class="button-draw" onclick="location.reload()" aria-label="Sortear amigo secreto" id="botonReinicio" disabled="true">
+                    <img src="assets/restart.jpg" alt="Ícono para resetear">
+                    Reiniciar juego
                 </button>
             </div>
         </section>
     </main>
 
-    <script src="app.js" defer></script>
+    <script src="appRf.js" defer></script>
 </body>
 </html>
